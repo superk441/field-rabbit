@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div id="root">{{{root}}}</div>
+    <script>
+          // WARNING: See the following for security issues around embedding JSON in HTML:
+          // http://redux.js.org/recipes/ServerRendering.html#security-considerations
+        window.__PRELOADED_STATE__ = '{{preloadedState}}'
+    </script>
+    <script src="./app.bundle.js"></script>
+</body>
+</html>
