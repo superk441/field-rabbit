@@ -1,0 +1,1 @@
+export const LAYOUT_SIDEBAR_TOGGLE: string = 'LAYOUT_SIDEBAR_TOGGLE';
